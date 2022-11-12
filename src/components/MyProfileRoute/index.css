@@ -1,0 +1,131 @@
+.myProfile-container {
+  width: 380px;
+  height: 640px;
+}
+.my-posts-container {
+  list-style: none;
+  list-style-type: none;
+  flex-wrap: wrap;
+  display: flex;
+  width: 400px;
+  margin-left: -33px;
+}
+.posts-heading {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #262626;
+  margin-left: 10px;
+}
+@media screen and (min-width: 768px) {
+  .myProfile-container {
+    width: 1440px;
+    height: 2085px;
+  }
+  .my-posts-container {
+    width: 1080px;
+  }
+}
+.myStoryImage {
+  width: 64px;
+  height: 64px;
+  border: 2px solid #c7c7cc;
+  box-sizing: border-box;
+  margin-right: 20px;
+  border-radius: 35px;
+}
+@media screen and (min-width: 768px) {
+  .myStoryImage {
+    width: 78px;
+    height: 78px;
+    margin-right: 25px;
+    border-radius: 40px;
+  }
+}
+.my-image {
+  width: 118px;
+  height: 118px;
+}
+.list-item-my-profile {
+  margin: 1px;
+}
+@media screen and (min-width: 768px) {
+  .my-image {
+    width: 330px;
+    height: 330px;
+  }
+  .list-item-my-profile {
+    margin: 5px;
+  }
+}
+
+.storiesContainer {
+  list-style: none;
+  display: flex;
+  align-self: flex-start;
+  margin-left: 60px;
+}
+
+.line {
+  width: 100%;
+  max-width: 1040px;
+  height: 0px;
+
+  border: 0.1px solid #c6c6c8;
+}
+.storyImage {
+  height: 50px;
+  width: 50px;
+
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.infoContainer {
+  display: flex;
+  margin-left: 90px;
+  margin-top: 50px;
+}
+.myProfilePic {
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 180px;
+  height: 180px;
+}
+.followersContainer {
+  display: flex;
+}
+.headLogo {
+  display: flex;
+  margin-left: 120px;
+  align-items: center;
+}
+.textContainer {
+  margin-left: 30px;
+}
+.infoText {
+  margin-right: 5px;
+  padding: 5px;
+  /* margin-left: 20px; */
+}
+
+span {
+  font-weight: 500;
+}
+
+.userId {
+  font-weight: 500;
+}
+
+.user-profile-container {
+  padding-left: 50px;
+}
+
+.myPosts {
+  display: flex;
+  list-style: none;
+}
+.myProfilePostsItem {
+  margin-right: 15px;
+}
