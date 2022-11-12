@@ -138,7 +138,7 @@ class InstaStory extends Component {
         className="fail-retry"
         type="button"
         onClick={this.onClickTryAgainStories}
-        // testid="Retry"
+        testid="Retry"
       >
         Try again
       </button>
@@ -146,10 +146,7 @@ class InstaStory extends Component {
   )
 
   renderLoader = () => (
-    <div
-      className="loader-con"
-      // testid="loader"
-    >
+    <div className="loader-con" testid="loader">
       <Loader type="TailSpin" color="#4094EF" height={25} width={25} />
     </div>
   )

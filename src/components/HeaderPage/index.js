@@ -62,7 +62,7 @@ const Header = props => {
             className="ham-button"
             type="button"
             onClick={onClickHamIcon}
-            // testid="hamburgerMenuIcon"
+            testid="hamburgerMenuIcon"
           >
             <GiHamburgerMenu className="icon" />
           </button>
@@ -78,7 +78,7 @@ const Header = props => {
               <button
                 type="button"
                 className="search-button"
-                // testid="searchIcon"
+                testid="searchIcon"
                 onClick={onClickSearchIcon}
               >
                 <FaSearch className="search-icon" />
@@ -142,7 +142,7 @@ const Header = props => {
             className="ham-button"
             type="button"
             onClick={onClickCloseButton}
-            // testid="closeIcon"
+            testid="closeIcon"
           >
             <ImCross className="close-icon" />
           </button>
@@ -161,7 +161,7 @@ const Header = props => {
             type="button"
             className="search-button"
             onClick={onClickSearchIcon}
-            // testid="searchIcon"
+            testid="searchIcon"
           >
             <FaSearch className="search-icon" />
           </button>

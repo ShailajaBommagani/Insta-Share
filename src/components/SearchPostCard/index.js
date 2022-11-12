@@ -91,7 +91,7 @@ class SearchPostCard extends Component {
                 type="button"
                 className="like-button"
                 onClick={this.onClickLikeDecreaseButton}
-                // testid="unLikeIcon"
+                testid="unLikeIcon"
               >
                 <FcLike className="liked-icon like-icon" />
               </button>
@@ -100,7 +100,7 @@ class SearchPostCard extends Component {
                 type="button"
                 className="like-button"
                 onClick={this.onClickLikeIncreaseButton}
-                // testid="likeIcon"
+                testid="likeIcon"
               >
                 <BsHeart className="like-icon" />
               </button>

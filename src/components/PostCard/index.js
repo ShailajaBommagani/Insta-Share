@@ -71,10 +71,7 @@ class PostCard extends Component {
     const updateCount = likeCount + counter
 
     return (
-      <li
-        className="post-card-list-item"
-        //   testid="postCard"
-      >
+      <li className="post-card-list-item" testid="postCard">
         <div className="profile-username-container">
           <img
             src={profilePic}
@@ -93,7 +90,7 @@ class PostCard extends Component {
                 type="button"
                 className="like-button"
                 onClick={this.onClickLikeDecreaseButton}
-                // testid="unLikeIcon"
+                testid="unLikeIcon"
               >
                 <FcLike className="liked-icon like-icon" />
               </button>
@@ -102,7 +99,7 @@ class PostCard extends Component {
                 type="button"
                 className="like-button"
                 onClick={this.onClickLikeIncreaseButton}
-                // testid="likeIcon"
+                testid="likeIcon"
               >
                 <BsHeart className="like-icon" />
               </button>
